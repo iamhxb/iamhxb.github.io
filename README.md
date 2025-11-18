@@ -1,2 +1,2 @@
 # 胡小兵主页
-The main repository for Hu Xiaobing
+[数值计算机器解题](https://iamhxb.github.io/iamhxb/)
