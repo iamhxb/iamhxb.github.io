@@ -1,0 +1,295 @@
+﻿/* Basic css*/
+body {
+    color: #696969;
+    font-family: 宋体, "Times New Roman", sans-serif;
+    font-size:14px;
+    width:100%;
+    height:100%;
+}
+
+html,body,div, h1,h2,h3,h4,h5,p,form,input,button,textarea,select,fieldset,blockquote,ul,ol,li,dl,dt,dd,pre{
+    margin:0;
+    padding:0;
+}
+
+img,body,html {
+    border:0;
+}
+
+address,caption,cite,code,dfn,em,strong,th,var {
+    font-style:normal;
+    font-weight:500;
+}
+
+ol,ul {
+    list-style:none;
+}
+
+caption,th {
+    text-align:left;
+}
+
+q:before, q:after {
+    content:'';
+}
+
+a,a:visited {
+	color: #696969;
+	text-decoration: none;
+}
+
+a:hover,a:active {
+	padding: 0px 5px;
+	color:#fff;	
+	text-decoration: none;
+	font-weight:500;
+	cursor:pointer;
+	background-color: #0000ff;
+}
+
+
+.left {
+    float:left;
+}
+
+.right {
+    float:right;
+}
+
+.center {
+    margin:0 auto;
+    text-align:center;
+}
+
+.bring-to-top {
+    position:relative;
+    z-index:500;
+}
+
+.clear {
+    clear:both;
+}
+
+.hidden {
+    display:none;
+}
+
+.fit-parent {
+    height:100%;
+    width:100%;
+}
+
+.inline-block{
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+
+
+input, select, textarea{
+	width: 250px;
+	border-color:#000;
+	border-width:1px;
+	background-color: #fff;
+	color: #000;
+}
+
+textarea{
+	width: 330px;
+}
+
+input, select{
+	line-height: 26px;
+	height:26px;
+}
+
+
+
+/* container */
+#container{margin: 0; border: 0; padding:0;}
+
+/* header */
+#header{
+	width: 100%;
+	height: 120px;
+}
+
+
+/* middle */
+#middle{
+	width: 100%;
+	height: auto;
+	background: #fff url('../images/a3.gif') top left repeat-x;
+}
+
+
+/* footer */
+#footer{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-top: dotted 1px #a1a1a1;
+	font-size: 13px;
+	text-align: center;
+}
+
+
+/* logo */
+#header #header-logo{
+	vertical-align: top;
+	text-align: left;
+	height: 120px;
+	width: 240px;
+	background: url('../images/logo.jpg') top left no-repeat;
+}
+
+/* header content */
+#header #header-content{
+	background:url('../images/default-header.jpg') top left no-repeat;
+    text-align: right;
+	vertical-align: top;
+	height: 120px;
+	width: 100%;
+}
+
+
+/* middle nav bar */
+#middle #nav-bar{
+	width: 240px;
+	height: 100%;
+	margin:0px;
+	vertical-align: top;
+}
+
+
+/* middle content */
+#middle #middle-content{
+    width:auto;
+	height: 100%;
+	margin: 0px 10px;
+	vertical-align: top;
+}
+
+#content-title{
+	vertical-align: center;	
+}
+
+
+
+#param-panel, #result-panel{
+	margin-bottom:10px;
+	background-color:#f8f8f8;
+	padding:10px 20px;
+	width:96%;
+}
+
+#param-panel .input-text{
+	font-size: 14px;
+	color: #000;
+}
+
+
+/*
+#param-panel table{	
+	border: 0px solid #cacaca;
+	margin-bottom: 24px;
+}
+
+#param-panel table th{
+	text-align: left;
+	font-weight: 500;
+	padding: 8px;
+}
+
+#param-panel table td{
+	padding: 8px;
+}
+
+#param-panel table tr.rowA{
+	background-color: #f5f5f5;
+	color: inherit;
+}
+
+#param-panel table tr.rowB{
+	background-color: #fdfdfd;
+	color: inherit;
+}
+*/
+
+#result-content{
+	margin: 10px 0px;
+	padding: 10px 10px;
+	font-size: 13px;
+	font-weight: 500;
+	color: black;
+}
+
+#result-content table{
+	border: 1px solid #999;
+	background:#fff;
+	margin: 24px;
+}
+
+#result-content table th, td{
+	text-align: left;
+	font-weight: 500;
+	padding: 8px;
+}
+
+#result-content table tr.rowA{
+	background-color: #efefef;
+	color: inherit;
+}
+
+#result-content table tr.rowB{
+	background-color: #fdfdfd;
+	color: inherit;
+}
+
+
+
+/*Data table list css*/
+.data-table{
+    border-collapse: collapse;
+	margin:0;
+	padding:0;
+}
+
+.data-table .data-tr{
+    background:#FFF;
+}
+
+.data-tr .data-td{
+	height:21px;
+	/*width:30px;*/
+	border: 1px solid #9DB3C5;
+}
+
+.data-td input{
+	height:21px;
+	line-height:21px;
+	border:solid 1px #ccc;	
+}
+
+.data-table .data-head-tr{
+	text-align:center;
+	background:#e1e1e1;
+	border: 1px solid #9DB3C5;
+}
+
+.data-head-tr .data-head-td{
+    height:24px;
+	border: 1px solid #9DB3C5;
+	font-size:14px;
+}
+
+/*Slider menu css*/
+#options {width:230px; margin:5px; text-align:left;}
+#options a{ font-size:16px; font-weight: bold;}
+
+#acc {width:230px; margin:5px;list-style:none; vertical-align:top;}
+#acc h3 {width:226px; border:1px solid #9ac1c9; padding:5px; font-weight:bold; cursor:pointer; background-color:#f6f6f6;}
+#acc h3:hover {background:#e6e6e6;}
+#acc ul {line-height: 24px;}
+#acc li {padding: 1px;}
+#acc .acc-section {overflow:hidden;}
+#acc .acc-content {width:228px; padding:6px;background:#fff;}
